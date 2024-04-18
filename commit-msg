@@ -1,0 +1,4 @@
+#!/bin/sh
+# assuming validate_commit_msg binary is placed in bin/ directory at project root
+PROJECT_ROOT="$(git rev-parse --show-toplevel)"
+$PROJECT_ROOT/bin/main.exe $1

@@ -1,0 +1,1 @@
+module "validate-commit-msg"
