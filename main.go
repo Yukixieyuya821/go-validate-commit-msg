@@ -24,7 +24,6 @@ func main() {
 	}
 
 	filePath := os.Args[1]
-	fmt.Println(filePath)
 	file, err := os.Open(filePath)
 	if err != nil {
 		fmt.Printf("Error: Unable to open the commit message file: %s\n", err)
